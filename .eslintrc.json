@@ -34,7 +34,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "tb",
+            "prefix": "epneo",
             "style": "camelCase"
           }
         ],
@@ -42,7 +42,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "tb",
+            "prefix": "epneo",
             "style": "kebab-case"
           }
         ],
