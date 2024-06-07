@@ -13,7 +13,7 @@ import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
   encapsulation: ViewEncapsulation.None
 })
 export class ExampleComponent implements OnInit {
-  @Input() title! : string;
+  @Input() title?: string;
 
   constructor() { }
 
