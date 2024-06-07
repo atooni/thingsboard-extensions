@@ -1,0 +1,12 @@
+<main>
+  <section>
+    <p>{{ title }}</p>
+    <epneo-iaqelement
+      *ngFor="let element of categories"
+      [id]="element.id"
+      [title]="element.title"
+      [unit]="element.unit"
+    ></epneo-iaqelement>
+  </section>
+  <footer>The End</footer>
+</main>

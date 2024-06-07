@@ -1,0 +1,36 @@
+main {
+  max-width: 640px;
+  margin: 0;
+}
+
+section {
+  margin: 20px;
+  height: 96%;
+  font-size: 14px;
+  overflow-y: auto;
+}
+
+footer {
+  font-size: 12px;
+  opacity: 0.5;
+  text-align: center;
+  margin-top:20px;
+}
+
+/*Scroll Styling*/
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

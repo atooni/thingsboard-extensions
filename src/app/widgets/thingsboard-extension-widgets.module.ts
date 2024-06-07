@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ExampleModule } from './components/example/example.module';
+import { IAQElementModule } from './components/iaqelement/iaqelement.module';
+import { IAQContainerModule } from './components/iaqcontainer/iaqcontainer.module';
 import { SharedModule } from '@shared/public-api';
 import { HomeComponentsModule } from '@home/components/public-api';
 
@@ -13,7 +14,8 @@ import { HomeComponentsModule } from '@home/components/public-api';
     SharedModule
   ],
   exports: [
-    ExampleModule,
+    IAQElementModule,
+    IAQContainerModule
   ]
 })
 export class ThingsboardExtensionWidgetsModule {
